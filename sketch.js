@@ -52,3 +52,4 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     }
   }
 }
+//é possível editar no GitHub
