@@ -52,4 +52,4 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     }
   }
 }
-//é possível editar no GitHub
+//é possível editar no GitHub sem abrir o VS code
