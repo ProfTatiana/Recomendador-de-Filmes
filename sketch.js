@@ -1,25 +1,26 @@
-// fantasia, aventura, drama
 let campoIdade;
 let campoFantasia;
 let campoAventura;
 
 function setup() {
-  createCanvas(800, 400);
-  createElement("h1", "Recomendador de filmes");
+
+
+  createCanvas(500, 400);
+  createElement("h2", "Recomendador de filmes");
   createSpan("Sua idade:");
-  campoIdade = createInput("5");
+  campoIdade = createInput("6");
   campoFantasia = createCheckbox("Gosta de fantasia?");
   campoAventura = createCheckbox("Gosta de aventura?");
 }
 
 function draw() {
-  background("#FFEB3B");
+  background("black");
   let idade = campoIdade.value();
   let gostaDeFantasia = campoFantasia.checked();
   let gostaDeAventura = campoAventura.checked();
   let recomendacao = geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura);
 
-  fill(color(76, 0, 115));
+  fill("wihte");
   textAlign(CENTER, CENTER);
   textSize(50);
   text(recomendacao, width / 2, height / 2);
